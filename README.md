@@ -1,22 +1,12 @@
-ZIO Flaky & Slow
-----------------
+ZIO Tweet Dupe
+--------------
+
+Download a dataset like Trump tweets: https://drive.google.com/file/d/16wm-2NTKohhcA26w-kaWfhLIGwl_oX95/view?usp=sharing
 
 ```
-./sbt test
-
-./sbt "runMain Flaky"
-
-./sbt "runMain Slow"
-
-./sbt "runMain WebApp"
+./sbt "runMain TweetDupe PATH_TO_YOUR_JSON_FILE"
 ```
-
-- [localhost:8080/flaky](http://localhost:8080/flaky)
-- [localhost:8080/slow](http://localhost:8080/slow)
 
 ## Todo
 
-- Nicer test response value extraction
-- Scala 3 vararg significant indentation in tests
-- Server doesn't shutdown on ctrl-c
-- 
+- Kafka Mode
